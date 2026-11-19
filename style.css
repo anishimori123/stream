@@ -65,3 +65,44 @@ video { width: 100%; height: 100%; display: block; background: #000; }
 }
 .add button { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; cursor: pointer; }
 @media (min-width: 640px) { .add { grid-template-columns: 1fr 1.4fr auto; } }
+
+/* ---------- Podcasts (v0.2) ---------- */
+.small { font-size: 13px; }
+.hint.warn { color: #ffb4a8; }
+.chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 999px;
+  border: 1px solid #333842; background: var(--card); color: var(--muted); cursor: pointer;
+}
+.chip.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+.item.ep { cursor: default; align-items: flex-start; }
+.item .cover { flex: none; width: 48px; height: 48px; border-radius: 8px; object-fit: cover; background: #2c3038; }
+.item.ep .name { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.btns { flex: none; display: flex; flex-direction: column; gap: 6px; align-items: stretch; }
+.btn {
+  font: inherit; font-size: 13px; min-width: 76px; padding: 6px 10px; border-radius: 8px; cursor: pointer;
+  border: 1px solid #3a3f49; background: #2a2e35; color: var(--text);
+}
+.btn.play { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.saved { color: var(--ok); border-color: #2f5e47; }
+.btn.danger { color: #fff; background: #8a2a22; border-color: #8a2a22; }
+.btn:disabled { opacity: .8; cursor: default; }
+
+.podbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  background: #1b1e23; border-top: 1px solid #2f343c; padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+}
+.podbar-top { max-width: 900px; margin: 0 auto 6px; display: flex; align-items: center; gap: 12px; }
+.podbar-txt { flex: 1; min-width: 0; }
+.podbar-txt .name { font-weight: 600; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.podbar-txt .desc { color: var(--muted); font-size: 12px; }
+.podbar audio { display: block; width: 100%; max-width: 900px; margin: 0 auto; height: 40px; }
+.speed { font: inherit; font-size: 13px; padding: 6px 10px; border-radius: 8px; border: 1px solid #3a3f49; background: #2a2e35; color: var(--text); cursor: pointer; }
+body.has-podbar main { padding-bottom: 140px; }
+
+@media (max-width: 480px) {
+  .top { flex-wrap: wrap; }
+  .tabs { width: 100%; justify-content: space-between; }
+  .tabs button { flex: 1; padding: 6px 8px; }
+}

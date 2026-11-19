@@ -1,6 +1,10 @@
 # Stream
 
-A small web app for watching **official, free Japan TV streams** and keeping a **learning list** of interviews with tech leaders (Jensen Huang and others).
+A small web app with three tabs:
+
+- **Japan TV:** official, free Japan TV streams.
+- **Learning:** a list of interviews with tech leaders (Jensen Huang and others), plus your own list.
+- **Podcasts:** the newest episodes of tech-leader podcasts. Save episodes on your phone and play them later with no internet (great for the car).
 
 It runs in any browser and can be **installed like an app** on Windows and on an Android phone (Pixel). It is free to host and use.
 
@@ -14,6 +18,11 @@ It runs in any browser and can be **installed like an app** on Windows and on an
 | `style.css` | Colors and layout |
 | `app.js` | The logic: plays streams, shows lists, saves "My list" |
 | `channels.json` | **The channel and learning list.** Edit this to add or remove items |
+| `podcasts.js` | The Podcasts tab: episode list, play, save for offline, speed, resume |
+| `podcasts-config.json` | **Which podcasts to follow.** Edit this to add or remove shows |
+| `podcasts.json` | Latest episodes. Filled in **automatically** by GitHub; don't edit by hand |
+| `scripts/update-podcasts.mjs` | Reads each show's public feed and writes `podcasts.json` |
+| `.github/workflows/podcasts.yml` | Runs that script on GitHub every 6 hours (free) |
 | `manifest.webmanifest` | Lets phones and PCs "install" the site as an app |
 | `sw.js` | Service worker: keeps the app's own files so it opens fast |
 | `icons/` | App icons |
@@ -32,6 +41,19 @@ Each TV channel can have several `urls`. The app tries them in order, so backups
 3. Click **Commit changes**. The live site updates in about 1 minute.
 
 Videos you add inside the app under **My list** are saved only on that device (your PC and phone have separate lists).
+
+## Podcasts: how it works
+
+1. Every 6 hours, GitHub runs a small script for free (a "GitHub Action").
+2. The script finds each show's public RSS feed (a list of episodes that podcast creators publish for podcast apps) and saves the newest episodes into `podcasts.json`.
+3. The app reads that file. Tap **▶** to stream, or **⬇ Save** to store the episode on your device.
+4. Saved episodes play with **no internet**. The app remembers where you stopped, and you can change speed (1× to 2×). Phone lock-screen and car Bluetooth buttons work too.
+
+To refresh episodes right away: open the repo's **Actions** tab, then **Update podcast episodes**, then **Run workflow**.
+
+To add a show: in `podcasts-config.json`, copy one line and change `id`, `name`, `search` (words to find it) and `match` (a word in the show's real name). Commit, and GitHub updates the list within a few minutes.
+
+**Notes:** episodes take about 50–150 MB per hour of audio. A few podcast servers don't allow web apps to save files. Those episodes can still be streamed. If your phone runs very low on space, Android may clear saved episodes.
 
 ## Turn on the free website (GitHub Pages), one time only
 

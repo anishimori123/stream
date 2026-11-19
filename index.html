@@ -18,6 +18,7 @@
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="tv" aria-selected="true">Japan TV</button>
       <button role="tab" data-tab="learn" aria-selected="false">Learning</button>
+      <button role="tab" data-tab="pod" aria-selected="false">Podcasts</button>
     </nav>
   </header>
 
@@ -44,8 +45,27 @@
       </form>
       <ul id="my-list" class="list"></ul>
     </section>
+
+    <section id="tab-pod" class="tab" hidden>
+      <p class="hint">Tap <b>⬇ Save</b> to keep an episode on this device, then play it later with no internet (great for the car).</p>
+      <div id="pod-chips" class="chips"></div>
+      <p id="pod-info" class="hint small"></p>
+      <ul id="pod-list" class="list"></ul>
+    </section>
   </main>
 
+  <div id="pod-bar" class="podbar" hidden>
+    <div class="podbar-top">
+      <div class="podbar-txt">
+        <div id="pod-title" class="name"></div>
+        <div id="pod-show" class="desc"></div>
+      </div>
+      <button id="pod-speed" class="speed" title="Playback speed">1×</button>
+    </div>
+    <audio id="pod-audio" controls preload="metadata"></audio>
+  </div>
+
   <script src="app.js"></script>
+  <script src="podcasts.js"></script>
 </body>
 </html>

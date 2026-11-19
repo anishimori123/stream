@@ -1,5 +1,5 @@
 // Stream app — plays official Japan TV streams and keeps a learning list.
-const APP_VERSION = "0.1.0";
+const APP_VERSION = "0.2.0";
 
 const video = document.getElementById("video");
 const statusEl = document.getElementById("status");
@@ -19,7 +19,9 @@ function showTab(name) {
   );
   document.getElementById("tab-tv").hidden = name !== "tv";
   document.getElementById("tab-learn").hidden = name !== "learn";
+  document.getElementById("tab-pod").hidden = name !== "pod";
   if (name !== "tv") video.pause();
+  try { localStorage.setItem("stream.tab", name); } catch {}
 }
 
 // ---------- Helpers ----------
@@ -173,6 +175,12 @@ fetch("channels.json", { cache: "no-cache" })
   .then((data) => { renderTv(data.tv); renderLearn(data.learning); })
   .catch(() => setStatus("Couldn't load the channel list. Check your internet and refresh."));
 renderMine();
+
+// Reopen the last tab you used
+try {
+  const last = localStorage.getItem("stream.tab");
+  if (last === "learn" || last === "pod") showTab(last);
+} catch {}
 
 // Install as an app (PWA) + offline app shell
 if ("serviceWorker" in navigator) {

@@ -1,7 +1,7 @@
 // Service worker: caches the app's own files so it opens fast and installs as an app.
 // Live TV streams are NOT cached (they always come from the internet).
-const CACHE = "stream-v0.1.0";
-const SHELL = ["./", "index.html", "style.css", "app.js", "channels.json", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png"];
+const CACHE = "stream-v0.2.0";
+const SHELL = ["./", "index.html", "style.css", "app.js", "podcasts.js", "channels.json", "podcasts.json", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
