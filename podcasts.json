@@ -1,4 +1,701 @@
 {
- "updated": null,
- "shows": []
+ "updated": "2026-11-19T05:36:03.131Z",
+ "shows": [
+  {
+   "id": "acquired",
+   "name": "Acquired",
+   "feed": "https://feeds.transistor.fm/acquired",
+   "image": "https://img.transistorcdn.com/SYy-ia3mZbFnUAhbvsUEVW0EZyOaJlbF1tNaO9_3qEw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjQx/ZWZhM2YzZTI3YjA5/MDZhYmE3ZWUzNzU2/ZWYzMy5qcGc.jpg",
+   "episodes": [
+    {
+     "id": "9c3ce276-af3c-49a3-9d45-94b784b9c6a5",
+     "title": "Seinfeld",
+     "date": "2026-10-19T04:00:46.000Z",
+     "duration": 13820,
+     "size": 221157617,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/96a5f313/515377c5.mp3",
+     "summary": "Seinfeld, which ended three decades ago, has been watched by 72 million Americans so far THIS YEAR. Behind that incredible stat is an equally incredible business story: obsessive creators, perfect market timing, an ownership structure that aligned incentives for the long term…all"
+    },
+    {
+     "id": "68b66323-6e74-4c90-8157-ef3f1ed0d042",
+     "title": "The Home Depot",
+     "date": "2026-09-14T03:35:03.000Z",
+     "duration": 12902,
+     "size": 206437320,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/8ecb4ed4/568b6b7a.mp3",
+     "summary": "The Home Depot's founding story is like an Avengers movie… if the Avengers got fired, went broke, and stacked empty paint cans ten feet high to look legitimate. After being unceremoniously fired from their previous hardware chain at ages 48 and 35, Bernie Marcus and Arthur Blank "
+    },
+    {
+     "id": "dc17bee9-e7e2-4c06-afdd-e80244a0e9db",
+     "title": "Disney: The Renaissance and the Empire",
+     "date": "2026-08-10T04:41:43.000Z",
+     "duration": 16376,
+     "size": 262022993,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/4bcdc326/22e5d62f.mp3",
+     "summary": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled, salivating over offers to sell off the film library to MGM and offload the park"
+    },
+    {
+     "id": "9ed84917-8571-497e-b7d0-55fe85470301",
+     "title": "The Walt Disney Company",
+     "date": "2026-06-22T05:54:28.000Z",
+     "duration": 16289,
+     "size": 260637480,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/04eefe71/39c635fd.mp3",
+     "summary": "The Walt Disney Company is the most successful enterprise ever created for monetizing human nostalgia. Today it’s the king of global entertainment, holding the intellectual property rights to the childhood memories of billions of people (including, likely, all of you) and is a re"
+    },
+    {
+     "id": "465f9bb3-6d71-49ed-a233-de82bc41b034",
+     "title": "Vanguard",
+     "date": "2026-05-18T03:26:52.000Z",
+     "duration": 13197,
+     "size": 211208676,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3",
+     "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, on behalf of 50 million clients (including, likely, many of you). And yet Vanguar"
+    },
+    {
+     "id": "94dbf581-80c8-4b90-aff2-fa649cd90edd",
+     "title": "Rolex",
+     "date": "2026-05-03T03:34:00.000Z",
+     "duration": 17485,
+     "size": 279772153,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/7bea4e45/0aa48fa3.mp3",
+     "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history! Their products are comparable to a Hermès Birkin bag in price, luxury status an"
+    },
+    {
+     "id": "14ef00c6-30ba-44cc-9869-33d3d92828a3",
+     "title": "Costco",
+     "date": "2026-05-02T04:46:00.000Z",
+     "duration": 10409,
+     "size": 166558640,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/fcf31c71/acf1c31d.mp3",
+     "summary": "Costco is not only Charlie Munger’s favorite company of all time (plus he’s on the board, natch), it’s an absolutely fascinating study in how seemingly opposite characteristics can combine to create incredible company value. For instance: Costco has the cheapest prices of any maj"
+    },
+    {
+     "id": "5ad38cec-40ac-43e1-bc70-1c32617e4573",
+     "title": "Ferrari",
+     "date": "2026-04-13T03:33:59.000Z",
+     "duration": 13896,
+     "size": 222373262,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3",
+     "summary": "Ferrari is the pinnacle of luxury scarcity — across its entire 79-year history, the company has sold just 330,000 cars at an average price today of $500,000. For context, Hermès sells that many Birkins and Kellys roughly every 2 years, and Rolex moves that many watches every 3 mo"
+    },
+    {
+     "id": "82044eb3-e350-42c5-a799-2a2afc150e99",
+     "title": "Formula 1: The History and Business",
+     "date": "2026-03-02T22:18:59.000Z",
+     "duration": 15525,
+     "size": 248453072,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/93e7bac7/9d4b12b6.mp3",
+     "summary": "Formula 1 is three competitions in one: a 200mph battle of the world's best race car drivers, the world cup of engineering where thousand-person teams spend hundreds of millions designing cars from scratch, and — as one of our listeners perfectly put it — the “Real Housewives of "
+    },
+    {
+     "id": "772a1689-5d6a-4d66-8469-95b8eb41dfd3",
+     "title": "The NFL",
+     "date": "2026-01-27T02:50:40.000Z",
+     "duration": 14903,
+     "size": 238446581,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/87d6503d/b2af8272.mp3",
+     "summary": "The NFL is nearly synonymous with America today. Practically nothing is more quintessentially and universally American than tuning in every Sunday (and Monday, and Thursday… and sometimes Saturdays and holidays too) to watch the world’s most beautiful ballet of violence. It gener"
+    },
+    {
+     "id": "c9b69067-78a8-43f4-9a12-b4522af47d1b",
+     "title": "10 Years of Acquired (with Michael Lewis)",
+     "date": "2025-12-15T04:19:45.000Z",
+     "duration": 9474,
+     "size": 151629480,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/0f470567/18269289.mp3",
+     "summary": "Why has Acquired — seemingly against all odds — “worked”? It's a puzzling question: episodes are four hours long, they come out infrequently, and they usually don’t have guests or video. Hardly the standard-issue playbook for podcasting success! And yet well over a million smart,"
+    },
+    {
+     "id": "4537f61d-0ec1-4837-92e0-9270d140e6d2",
+     "title": "Coca-Cola",
+     "date": "2025-11-24T03:00:17.000Z",
+     "duration": 14015,
+     "size": 224306005,
+     "url": "https://pscrb.fm/rss/p/media.transistor.fm/95f9fcf7/68ea94eb.mp3",
+     "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into emotion in all of our collective psyches, and ALSO built one of the most incred"
+    }
+   ]
+  },
+  {
+   "id": "dwarkesh",
+   "name": "Dwarkesh Podcast",
+   "feed": "https://apple.dwarkesh-podcast.workers.dev/feed.rss",
+   "image": "",
+   "episodes": [
+    {
+     "id": "substack:post:225196123",
+     "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+     "date": "2026-11-16T17:46:28.000Z",
+     "duration": 5925,
+     "size": 94807500,
+     "url": "https://api.substack.com/feed/podcast/225196123/e31fdeb36d2d8a60f107c733c706a545.mp3",
+     "summary": "Paul Christiano is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He’s recently joined OpenAI’s board (though here he is speaking as a private citizen). Pa"
+    },
+    {
+     "id": "substack:post:224624765",
+     "title": "The avalanche that hit math is coming for AI development",
+     "date": "2026-11-13T18:37:51.000Z",
+     "duration": 2666,
+     "size": 42658212,
+     "url": "https://api.substack.com/feed/podcast/224624765/6681869400340558d9a7bc295e9a3127.mp3",
+     "summary": "If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, from debating people on and off the podcast, I’ve updated my views a ton. Let me walk you through how my thin"
+    },
+    {
+     "id": "substack:post:222791845",
+     "title": "What Robert Caro learned about power after studying it for 50 years",
+     "date": "2026-10-30T16:56:02.000Z",
+     "duration": 3670,
+     "size": 58715471,
+     "url": "https://api.substack.com/feed/podcast/222791845/56a1d43c065b8f432a85b78b449d6b1f.mp3",
+     "summary": "The Robert Caro interview. Watch on YouTube ; read the transcript . Sponsors * Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That’s because Antithesis is FAST. On a recent project, it packed fifteen hours of simulation into each fifteen-mi"
+    },
+    {
+     "id": "substack:post:222663001",
+     "title": "What I learned about power from LBJ and Robert Moses",
+     "date": "2026-10-29T16:48:39.000Z",
+     "duration": 1482,
+     "size": 23712643,
+     "url": "https://api.substack.com/feed/podcast/222663001/6186ffb07362cafe940665b0be4b2936.mp3",
+     "summary": "I recently got to interview Robert Caro, who is my favorite author of all time. This gave me the excuse to reread his biographies of Lyndon Johnson and Robert Moses, and to compile my prep notes into this video essay. These guys pulled off some truly incredible schemes. Thanks to"
+    },
+    {
+     "id": "substack:post:221632772",
+     "title": "What will computer chips look like in 2045?",
+     "date": "2026-10-22T15:02:21.000Z",
+     "duration": 4140,
+     "size": 66240826,
+     "url": "https://api.substack.com/feed/podcast/221632772/30c38515d3ea0554c60350beead67f42.mp3",
+     "summary": "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what's coming next – gate-all-around transistors, backside power, CFET, hybrid bonding – is hard to follow without actual"
+    },
+    {
+     "id": "substack:post:218345956",
+     "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+     "date": "2026-10-01T15:28:28.000Z",
+     "duration": 5843,
+     "size": 93491347,
+     "url": "https://api.substack.com/feed/podcast/218345956/4b5f7bc6865a6ab2f2eeea047dff6d8b.mp3",
+     "summary": "New episode with military historian Si Sheppard . The conquests of the Aztec and Inca empires might be the most shocking events in human history. Hernan Cortés and some hundreds of Conquistadors landed on a new continent they knew basically nothing about, and within 2 and a half "
+    },
+    {
+     "id": "substack:post:216149332",
+     "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+     "date": "2026-09-17T15:38:13.000Z",
+     "duration": 4810,
+     "size": 76957299,
+     "url": "https://api.substack.com/feed/podcast/216149332/7d69c76fc9ac6716e7931d0de12ec324.mp3",
+     "summary": "New episode with Noam Brown. We talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research. And we also discuss how we will know if the models are actually aligned before we kick off RSI. Watch"
+    },
+    {
+     "id": "substack:post:215199144",
+     "title": "AI researchers debate how close we are to recursive self-improvement",
+     "date": "2026-09-11T16:28:11.000Z",
+     "duration": 5821,
+     "size": 93136917,
+     "url": "https://api.substack.com/feed/podcast/215199144/a0f47ff12d3d6420b3180f18adb9bfa3.mp3",
+     "summary": "New episode with John Schulman , Beren Millidge and Charlie O’Neill . I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next. Wat"
+    },
+    {
+     "id": "substack:post:213682035",
+     "title": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
+     "date": "2026-09-01T15:41:06.000Z",
+     "duration": 8433,
+     "size": 134921551,
+     "url": "https://api.substack.com/feed/podcast/213682035/9231941671d781aaea5fd995c256ad24.mp3",
+     "summary": "Ajeya Cotra is a researcher at METR, where she works on threat modeling for loss-of-control risks from advanced AI. Before that, she led the technical AI safety program at what is now Coefficient Giving. She is one the three authors of METR and Redwood Research’s “ Brief independ"
+    },
+    {
+     "id": "substack:post:213603862",
+     "title": "The rise and fall of agent civilizations",
+     "date": "2026-08-31T20:36:53.000Z",
+     "duration": 1480,
+     "size": 23685046,
+     "url": "https://api.substack.com/feed/podcast/213603862/1e27c584393e0d2044654bcd88d38e5c.mp3",
+     "summary": "This is a video recording of a post I wrote last week. You can read the original here . This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com"
+    },
+    {
+     "id": "substack:post:212689635",
+     "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+     "date": "2026-08-25T15:32:57.000Z",
+     "duration": 4613,
+     "size": 73804215,
+     "url": "https://api.substack.com/feed/podcast/212689635/cf7a1608fcec427861f1b832ba9f1e8a.mp3",
+     "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel. We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next "
+    },
+    {
+     "id": "substack:post:210737923",
+     "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
+     "date": "2026-08-11T16:31:23.000Z",
+     "duration": 7952,
+     "size": 127224832,
+     "url": "https://api.substack.com/feed/podcast/210737923/e93bde91ce72fbf50e2faa22a7a594d0.mp3",
+     "summary": "Ryan Greenblatt is the Chief Scientist at Redwood Research, where he works on technical AI safety research. He's also lead author on the \"Alignment faking in Large Language Models\", and is currently working on a third party investigation into the OpenAI/HuggingFace incident. In m"
+    }
+   ]
+  },
+  {
+   "id": "bg2",
+   "name": "BG2Pod",
+   "feed": "https://anchor.fm/s/f06c2370/podcast/rss",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg",
+   "episodes": [
+    {
+     "id": "aa17f43f-020f-4233-979a-3029cce88f48",
+     "title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
+     "date": "2026-10-15T10:00:00.000Z",
+     "duration": 5992,
+     "size": 95881089,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/127499364/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-15%2F434203331-44100-2-dec3db8a7fb56.mp3",
+     "summary": "Can AI revenues justify the spending? Jensen Huang breaks down the biggest bottlenecks heading into 2027, the path to the singularity, open vs. closed models, and why he’s 99.99% optimistic about the decade ahead. Jensen joins Brad Gerstner and Clark Tang for their third BG2 conv"
+    },
+    {
+     "id": "937cdc31-6575-49ec-a776-21d9843fa327",
+     "title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+     "date": "2026-06-11T23:09:38.000Z",
+     "duration": 4847,
+     "size": 77556923,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/121360299/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-11%2F425982296-44100-2-4d95be006e693.mp3",
+     "summary": "Brad Gerstner sits down with Gavin Baker and Andrew Fox of Atreides Management, alongside Altimeter partner Clark Tang, to break down one of the biggest questions in tech and markets: how should investors think about the SpaceX IPO? They unpack the major levers behind SpaceX’s ne"
+    },
+    {
+     "id": "103f5be4-0ce0-4166-ac85-ea93dfab8ed5",
+     "title": "ChatGPT – The Super Assistant Era | BG2 Guest Interview",
+     "date": "2026-03-15T16:25:00.000Z",
+     "duration": 3820,
+     "size": 61128619,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/116939990/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-15%2F420059967-44100-2-ebfd9ae9acf2d.mp3",
+     "summary": "In this BG2 guest interview, Altimeter Partner Apoorv Agrawal sits down with Nick Turley of OpenAI for a deep dive into how ChatGPT became one of the fastest-growing products in history—and what comes next. They discuss how OpenAI thinks about retention and product metrics, why l"
+    },
+    {
+     "id": "b277f93a-8eaf-449d-92fc-5a64613eea7c",
+     "title": "AI Enterprise - Databricks & Glean | BG2 Guest Interview",
+     "date": "2025-12-23T23:00:00.000Z",
+     "duration": 2700,
+     "size": 43206947,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/113053794/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-23%2F414923022-44100-2-f607e6fd540c.mp3",
+     "summary": "In this BG2 guest interview, Altimeter partner Apoorv Agrawal sits down with Ali Ghodsi (Databricks) and Arvind Jain (Glean) for a candid, operator-level discussion on what’s actually working in enterprise AI—and what isn’t. They unpack why 95% of AI projects fail, why LLMs are r"
+    },
+    {
+     "id": "243fe6a6-3fad-452f-9716-652efa031460",
+     "title": "All things AI w @altcap @sama & @satyanadella. A Halloween Special. 🎃🔥BG2 w/ Brad Gerstner",
+     "date": "2025-10-31T23:11:44.000Z",
+     "duration": 4460,
+     "size": 71372799,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/110515051/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-31%2F410367997-44100-2-3f02228502e34.mp3",
+     "summary": "Brad Gerstner sits down with Satya Nadella (Microsoft) and Sam Altman (OpenAI) to unpack the $3 trillion AI buildout transforming technology, business, and the global economy. They dive deep into the OpenAI–Microsoft partnership, how it unlocked massive scale in the cloud, and wh"
+    },
+    {
+     "id": "d4f3cc4a-9612-429f-9807-30791a77607b",
+     "title": "AI Bubble, Stablecoin Boom, and Runnin' Down a Dream | BG2 w/ Bill Gurley and Brad Gerstner",
+     "date": "2025-10-14T23:40:02.000Z",
+     "duration": 3709,
+     "size": 59354800,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/109686792/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-14%2F409281542-44100-2-9c784bfbcad1f.mp3",
+     "summary": "Pre-Order Runnin' Down a Dream now: https://a.co/d/0oIPPve Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, they unpack the $3T AI buildout, circular revenue red flags, and whether the boom is becomin"
+    },
+    {
+     "id": "f05e4052-3654-4257-8019-4a9eac5b4b56",
+     "title": "NVIDIA: OpenAI, Future of Compute, and the American Dream | BG2 w/ Bill Gurley and Brad Gerstner",
+     "date": "2025-09-26T03:17:35.000Z",
+     "duration": 6254,
+     "size": 100066532,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/108829211/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-26%2F408167502-44100-2-fa4176ea253c7.mp3",
+     "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, Brad and Clark Tang sit down with Jensen Huang, founder &amp; CEO of NVIDIA, for a sweeping deep dive on the new era of AI. From the $100B partnership "
+    },
+    {
+     "id": "258d7aa9-7211-44e4-b45c-6da6d4cf2ce2",
+     "title": "Inside OpenAI Enterprise: Forward Deployed Engineering, GPT-5, and More | BG2 Guest Interview",
+     "date": "2025-09-11T21:07:07.000Z",
+     "duration": 4137,
+     "size": 66197210,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/108180383/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-11%2F407333188-44100-2-940cc3f8fbfd7.mp3",
+     "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, guest host Altimeter’s Apoorv Agrawal explores how OpenAI is reshaping enterprise with Sherwin Wu, Head of Engineering OpenAI Platform, and Olivier God"
+    },
+    {
+     "id": "31084689-4814-4666-8387-d422883ea543",
+     "title": "China, China, China. Breaking Down China’s Tech Surge | BG2 w/ Bill Gurley and Brad Gerstner",
+     "date": "2025-08-28T23:39:23.000Z",
+     "duration": 3992,
+     "size": 63875029,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/107501434/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-28%2F406480353-44100-2-5182b41eca3b5.mp3",
+     "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, they dive deep into China’s explosive innovation across AI and EVs, the rise of open-source models, lessons for U.S. competitiveness, the real story on"
+    },
+    {
+     "id": "3f24427f-268a-4e99-9a91-d2d3c5bb55d7",
+     "title": "China Open-Source, Compute Arms Race, Reordering Global Trade | BG2 w/ Bill Gurley and Brad Gerstner",
+     "date": "2025-07-31T15:11:15.000Z",
+     "duration": 3860,
+     "size": 61772276,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/106264046/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-31%2F404892189-44100-2-2714b09af82f.mp3",
+     "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, they discuss open-source models in China and the US, the compute arms race, tariffs and the reordering of global trade, and more. Enjoy another episode"
+    },
+    {
+     "id": "330734de-ae3f-48a2-bc12-f5c6305c1dbd",
+     "title": "Michael Dell – Invest America Act Becomes Law, AI Talent Wars, Compute Demand, Market Update | BG2",
+     "date": "2025-07-10T22:50:18.000Z",
+     "duration": 4715,
+     "size": 75447483,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/105339114/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-10%2F403705236-44100-2-4dba74e47569e.mp3",
+     "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, they welcome Michael Dell to discuss the Invest America Act, lessons learned from the 90’s, government spending, budget deficit, the AI talent war, AI'"
+    },
+    {
+     "id": "2b07953d-94c4-4973-8c16-352bc91f44d4",
+     "title": "Coatue Pt2. Open AI’s Kevin Weil Dives into All Things ChatGPT | BG2 w/ Bill Gurley & Brad Gerstner",
+     "date": "2025-06-21T15:51:43.000Z",
+     "duration": 1296,
+     "size": 20741641,
+     "url": "https://anchor.fm/s/f06c2370/podcast/play/104449183/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-21%2F402567199-44100-2-7fbc9f5ed0ec.mp3",
+     "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing &amp; capitalism. This week, recording from the Coatue East Meets West stage, they welcome OpenAI CPO Kevin Weil to discuss all things OpenAI. Enjoy another episode of BG2! Show No"
+    }
+   ]
+  },
+  {
+   "id": "nopriors",
+   "name": "No Priors",
+   "feed": "https://feeds.megaphone.fm/nopriors",
+   "image": "https://megaphone.imgix.net/podcasts/803e0244-9d0f-11ed-923a-4bb54bf77468/image/NO_PRIORS_ALBUM_and_PROFILE_PIC-01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+   "episodes": [
+    {
+     "id": "c9a0c39e-de2a-11f1-9237-d39059052d4c",
+     "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+     "date": "2026-11-12T11:00:00.000Z",
+     "duration": 2355,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP6854771088.mp3",
+     "summary": "Drug discovery and development has long relied on expensive, time-consuming empirical trial and error. By shifting the discovery process onto computers, Isomorphic Labs wants to fundamentally change medicine from a process of discovery to one of precision engineering. Elad Gil si"
+    },
+    {
+     "id": "03f99d40-d8c2-11f1-9c96-7b13ace0b070",
+     "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+     "date": "2026-11-05T11:00:00.000Z",
+     "duration": 3248,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP1158596730.mp3",
+     "summary": "What does it mean to build wealth as an individual investor in today’s society, especially as gains continue to get concentrated into smaller groups of VCs or institutional investors? Robinhood’s CEO and co-founder Vlad Tenev has a vision that can be summed up in one word: Owners"
+    },
+    {
+     "id": "060e3c46-d339-11f1-a994-87ae12352fb9",
+     "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+     "date": "2026-10-29T10:00:00.000Z",
+     "duration": 2285,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP1665700091.mp3",
+     "summary": "What happens when you put code-generation agents in the hands of enterprise IT teams? With Serval, you get a system where it's easy for everyone to be a builder. Sarah Guo and Elad Gil sit down with Serval co-founder and CEO Jake Stauch to analyze his company’s direct challenge t"
+    },
+    {
+     "id": "1b967280-ce7b-11f1-8a29-072c10b8d7bc",
+     "title": "Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht",
+     "date": "2026-10-23T10:00:00.000Z",
+     "duration": 2483,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP2314551616.mp3",
+     "summary": "In the transition to the agentic web, security has become an afterthought. Now, organizations are racing to figure out what AI security means, and how to keep their data safe. Live from Cloudflare Connect, Sarah Guo sits down with Cloudflare CTO Dane Knecht to discuss the changin"
+    },
+    {
+     "id": "c69c028a-cdc7-11f1-a97a-77799e86d8ea",
+     "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+     "date": "2026-10-22T10:00:00.000Z",
+     "duration": 2727,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP8573582914.mp3",
+     "summary": "Adversaries are already running AI agents, and the fastest attacks now play out in seconds. Sarah Guo and Elad Gil sit down with CrowdStrike president and CEO George Kurtz on what AI-equipped attackers mean for enterprise security. George explains how agents are flattening the ad"
+    },
+    {
+     "id": "6fed676e-c84d-11f1-a40c-678dc1ca0b76",
+     "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+     "date": "2026-10-15T10:00:00.000Z",
+     "duration": 2362,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP1628614600.mp3",
+     "summary": "Technology has always been the fundamental driver of improvement for human quality of life. And with the recent rollout of advanced frontier models, like OpenAI’s GPT-6, humanity can now massively accelerate scientific discovery for its benefit. Sarah Guo and Elad Gil are joined "
+    },
+    {
+     "id": "994123ec-c395-11f1-b01e-fff03490a570",
+     "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+     "date": "2026-10-09T17:24:00.000Z",
+     "duration": 4184,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP1028435739.mp3",
+     "summary": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning req"
+    },
+    {
+     "id": "44fa0b1c-be0b-11f1-b00d-cb6a27141e9e",
+     "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
+     "date": "2026-10-02T10:00:00.000Z",
+     "duration": 2138,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP7579412568.mp3",
+     "summary": "Founder and CEO of full-stack AI chip company Fractile, Walter Goodwin, joins Sarah Guo to discuss the bets he’s made on the future of the chip market as other major players like Broadcom, NVIDIA, and AMD try to accelerate their workloads. They discuss the difference in Fractile’"
+    },
+    {
+     "id": "e2eb4b88-b7c1-11f1-a5c5-4b2557d321bc",
+     "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+     "date": "2026-09-24T10:00:00.000Z",
+     "duration": 2564,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP3274846886.mp3",
+     "summary": "Can AI transform legacy incumbents rather than replacing them? Sequence Holdings co-founder and CEO Michael Lee joins Sarah Guo to discuss how holding company structures and engineering integrations are reshaping market leaders from the inside out. Michael details Sequence’s $7.7"
+    },
+    {
+     "id": "51c4092c-b309-11f1-8603-fb8d30e1277f",
+     "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+     "date": "2026-09-18T10:00:00.000Z",
+     "duration": 2293,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP7720707490.mp3",
+     "summary": "As generative AI hits hardware and latency bottlenecks, Stanford professor, diffusion pioneer, and Inception co-founder and CEO Stefano Ermon is betting on a radical new architecture. Stefano joins Sarah Guo to talk about Inception, and how his team is applying diffusion architec"
+    },
+    {
+     "id": "2ecd3b38-aca0-11f1-b6c4-13e4bbce7d30",
+     "title": "Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
+     "date": "2026-09-10T10:00:00.000Z",
+     "duration": 2709,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP7232498988.mp3",
+     "summary": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial inte"
+    },
+    {
+     "id": "8476d0dc-a726-11f1-86e6-bbc25e1787ef",
+     "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+     "date": "2026-09-03T10:00:00.000Z",
+     "duration": 2226,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP3024512727.mp3",
+     "summary": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain,"
+    }
+   ]
+  },
+  {
+   "id": "lex",
+   "name": "Lex Fridman Podcast",
+   "feed": "https://lexfridman.com/feed/podcast/",
+   "image": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/lex_fridman_podcast_cover_3000.jpg",
+   "episodes": [
+    {
+     "id": "https://lexfridman.com/?p=7826",
+     "title": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+     "date": "2026-11-19T04:37:34.000Z",
+     "duration": 12418,
+     "size": 149280668,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_larry_lawton.mp3",
+     "summary": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his life around to run the Reality Check Program, that helps kee"
+    },
+    {
+     "id": "https://lexfridman.com/?p=7818",
+     "title": "#504 – Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare",
+     "date": "2026-11-10T23:52:44.000Z",
+     "duration": 10875,
+     "size": 130768660,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_preston_stewart_michael_kofman.mp3",
+     "summary": "Preston Stewart is a West Point graduate and Afghanistan veteran who covers the Ukraine war extensively on his YouTube channel, his podcast called War and Conflict, and his newsletter called Defense Tech News. Michael Kofman is a world-class military analyst specializing in the R"
+    },
+    {
+     "id": "https://lexfridman.com/?p=7807",
+     "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+     "date": "2026-10-26T22:52:28.000Z",
+     "duration": 13360,
+     "size": 160582933,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_math_ai_crisis.mp3",
+     "summary": "Ankur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the quasi-Riemann hypothesis, the unique games conjecture and hundreds of "
+    },
+    {
+     "id": "https://lexfridman.com/?p=6554",
+     "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
+     "date": "2026-09-17T00:40:49.000Z",
+     "duration": 13431,
+     "size": 161169050,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_andrew_scull.mp3",
+     "summary": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/andrew-scull-tr"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6506",
+     "title": "#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux",
+     "date": "2026-08-26T21:47:04.000Z",
+     "duration": 19317,
+     "size": 249955445,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_dhh_2.mp3",
+     "summary": "DHH is the creator of Ruby on Rails, Omarchy Linux, CTO of 37signals, and a racecar driver. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep501-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. T"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6494",
+     "title": "#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football",
+     "date": "2026-08-12T13:11:45.000Z",
+     "duration": 11993,
+     "size": 143915525,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_khabib_nurmagomedov.mp3",
+     "summary": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. It’s translated and dubbed into English. Both language audio tracks (and subtitles) are available on YouT"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6474",
+     "title": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+     "date": "2026-07-28T20:06:06.000Z",
+     "duration": 13987,
+     "size": 186289694,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_gary_gallagher.mp3",
+     "summary": "Gary Gallagher is a historian of the American Civil War. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep499-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/g"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6466",
+     "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
+     "date": "2026-06-30T21:33:40.000Z",
+     "duration": 14326,
+     "size": 191739073,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_anthony_kaldellis.mp3",
+     "summary": "Anthony Kaldellis is a historian of the Roman Empire and author of “The New Roman Empire”, a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sc See below for timestamps, "
+    },
+    {
+     "id": "https://lexfridman.com/?p=6457",
+     "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+     "date": "2026-05-29T16:22:02.000Z",
+     "duration": 10912,
+     "size": 130943841,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_don_lincoln.mp3",
+     "summary": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-sc See below for timestamps, transcript, and to give feedback, submit que"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6450",
+     "title": "#496 – FFmpeg: The Incredible Technology Behind Video on the Internet",
+     "date": "2026-05-06T22:06:47.000Z",
+     "duration": 15821,
+     "size": 189853118,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_ffmpeg.mp3",
+     "summary": "Jean-Baptiste Kempf is lead developer of VLC and president of VideoLAN. Kieran Kunhya is a longtime FFmpeg contributor, codec engineer, and the person behind the now-infamous FFmpeg account on X. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6441",
+     "title": "#495 – Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age",
+     "date": "2026-04-09T17:43:17.000Z",
+     "duration": 7796,
+     "size": 93553684,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_lars_brownworth.mp3",
+     "summary": "Lars Brownworth is a historian, teacher, podcaster, and author specializing in Viking history, medieval Europe, and the Byzantine Empire. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep495-sc See below for timestamps, transcript, and to give f"
+    },
+    {
+     "id": "https://lexfridman.com/?p=6434",
+     "title": "#494 – Jensen Huang: NVIDIA – The $4 Trillion Company & the AI Revolution",
+     "date": "2026-03-23T16:28:42.000Z",
+     "duration": 9133,
+     "size": 116997396,
+     "url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_jensen_huang.mp3",
+     "summary": "Jensen Huang is the co-founder and CEO of NVIDIA, the world’s most valuable company and the engine powering the AI computing revolution. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep494-sc See below for timestamps, transcript, and to give fe"
+    }
+   ]
+  },
+  {
+   "id": "vftt",
+   "name": "View From The Top (Stanford GSB)",
+   "feed": "https://rss.art19.com/stanford-gsb",
+   "image": "https://content.production.cdn.art19.com/images/09/cf/0b/92/09cf0b92-b9fa-4f52-936a-ab1aba66b22e/84025bcbbdeb017ff2d5c10d851fe4c45f689b39d804e27193327f7bedc92e9b776720576148880fc68f703ed6dce0d87d5d5360280485ccc5345c0681baa3c4.jpeg",
+   "episodes": [
+    {
+     "id": "gid://art19-episode-locator/V0/bE3atrIVk4VET-Kl0ZylyvHw1zH5QF8n_D6eV2tuSHc",
+     "title": "S10E1: How Marc Stad Obtained the Unobtainable",
+     "date": "2026-11-05T08:00:00.000Z",
+     "duration": 3317,
+     "size": 53080816,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/440bd521-96f5-4bcf-b1e4-be8b3c63541d.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "The founder and managing partner of Dragoneer Investment Group reflects on making his own rules, becoming a sports owner, and the nature of mentorship."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/hu8pemJKM0B70qk1Q3cC2fHGGDj-v69BftTLJy7QmoI",
+     "title": "S9E8: Tekedra Mawakana Wants to Build the ‘World’s Most Trusted Driver’",
+     "date": "2026-08-26T07:00:00.000Z",
+     "duration": 3549,
+     "size": 56786442,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/8f946d5b-a338-482d-9d2b-7303cf45520b.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "Waymo’s co-CEO reflects on the road to Waymo, giving herself the chance to take a moonshot, and the future of mobility."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/Z-ish4R8vamAn_JzVh6LjXdgIXdpJ7jnvSWjy-G7p34",
+     "title": "S9E7: David Rubenstein on Leading the Parade",
+     "date": "2026-08-12T07:00:00.000Z",
+     "duration": 3613,
+     "size": 57814622,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/47f69671-ab0b-4ff5-aca6-93d3b2bd2959.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "The D.C. denizen reflects on his time in Jimmy Carter’s White House, remembers how he got into leveraged buyouts, and shares why he thinks you're not working hard enough if you never fail."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/blmC0CmA8H9PcvmA5_NmD6VXYtru8JPBYCIWOHZmdVc",
+     "title": "S9E6: Daniela Amodei Says Curiosity Is Underrated",
+     "date": "2026-07-01T07:00:00.000Z",
+     "duration": 3642,
+     "size": 58287333,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/88295a16-ad93-43d3-b5fa-a42f737e44b4.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "The co-founder and president of Anthropic talks about her decision to leave OpenAI, “radical responsibility,” and why she’s a lit major for life."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/94OsrvGaJjC2rDEPxTrNlZA6IYlH0qF7lVwO-dMhBBQ",
+     "title": "An AI@GSB Special: Demis Hassabis Thinks We’re in the ‘Foothills of the Singularity’",
+     "date": "2026-06-18T07:00:00.000Z",
+     "duration": 3289,
+     "size": 52635689,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/fa4772aa-29c9-4058-b029-f58be08fb6d2.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "When Demis Hassabis pitched DeepMind to a few venture capitalists back in 2010, the business plan was almost comically audacious. “Step one: Solve intelligence. Step two: Use it to solve everything else,” he recalls in a conversation at Stanford Graduate School of Business with S"
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/E5HdnHmeTLv_gzBgd2MLg_6QQsf0CTKgk80pjyN2f2s",
+     "title": "S9E5: Jane Fraser Says Think About the Skills, Not the Title",
+     "date": "2026-05-27T07:00:00.000Z",
+     "duration": 4046,
+     "size": 64749818,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/fd388ad4-c330-4c2c-8b5c-5ce364ab4aaf.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "Jane Fraser, CEO and chair of Citi, discusses leading a massive global bank, taking the toughest jobs, and why she believes empathy is a competitive edge."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/XCQaQytFdXXDszuCdtp2oEL-x4BQ4aiWv47ltkZou_A",
+     "title": "S9E4: David Baszucki Says Roblox Is the Future of Communication",
+     "date": "2026-05-13T07:00:00.000Z",
+     "duration": 3421,
+     "size": 54744711,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/b4ea78dd-8bff-461b-945a-219832f6a300.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "The Roblox founder and CEO talks anticipating the metaverse, beating the competition, and keeping kids safe online."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/e2HVapiRLm1fQKHGubiZS2irideeUb1WkUIyvsdkLqw",
+     "title": "S9E3: Joe Tsai Says Start Local, Then Go Global",
+     "date": "2026-03-20T07:00:00.000Z",
+     "duration": 3730,
+     "size": 59687079,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/be8bafb8-f6fe-437e-b872-e47715f8bc0f.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "Joe Tsai, co-founder and chairman of Alibaba, discusses how he built a global company and why he believes having access to AI is like having access to water and air."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/Nuh7wZgJ1VnJoB-D44HbRFKa2nSSmJHvCirI8rGqWNo",
+     "title": "S9E2: A.G. Sulzberger Is Tuning Out the Cheers and the Jeers",
+     "date": "2026-02-27T08:00:00.000Z",
+     "duration": 4109,
+     "size": 65755846,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/e3a9ad70-d2a3-462a-aa54-a68024bd95e8.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "The New York Times’ publisher and chairman describes what he’s learned about the importance of journalism, explains why he believes AI companies should pay for copyrighted content, and outlines his approach to leading change."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/ADdDNwg4Ph3st9WRW8siGCTpYxmcN6oga6RnboE25lY",
+     "title": "S8E13: GSB at 100: \"The Moment\"",
+     "date": "2025-12-29T08:00:00.000Z",
+     "duration": 1714,
+     "size": 27439856,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/85bac77b-3263-45cd-8560-a895e816bb63.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "The fourth and final episode of GSB at 100 captures a snapshot of a once-in-a-century milestone."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/NqMl8PezBByKDxPDS9VE00Guxsl2LKHQmuVVWNTl6e8",
+     "title": "S8E12: GSB at 100: \"The Experience\"",
+     "date": "2025-12-03T08:00:00.000Z",
+     "duration": 1741,
+     "size": 27866592,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/d6474d6b-04cd-4329-ba58-23c1367f8b04.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "From management to modeling, we explore the classroom experience at Stanford Graduate School of Business."
+    },
+    {
+     "id": "gid://art19-episode-locator/V0/VSonTroPzLhpxRwGQum9iD065TMwOPBkU_LVmvez94c",
+     "title": "S9E1: Orlando Bravo on Doing the Work, One Deal at a Time",
+     "date": "2025-11-19T08:00:00.000Z",
+     "duration": 3347,
+     "size": 53565231,
+     "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/e1e6aba6-01bc-4e84-a7c9-c9e68ac55920.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
+     "summary": "Thoma Bravo’s co-founder and managing partner reflects on his path from Puerto Rico to pioneering software buyouts."
+    }
+   ]
+  }
+ ]
 }
