@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:40:06.861Z",
+ "updated": "2026-11-19T15:43:36.228Z",
  "shows": [
   {
    "id": "acquired",
@@ -360,6 +360,15 @@
    "keepAll": false,
    "episodes": [
     {
+     "id": "8fd14988-e40e-11f1-99ee-ebfb28833f04",
+     "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+     "date": "2026-11-19T11:44:00.000Z",
+     "duration": 3597,
+     "size": 0,
+     "url": "https://traffic.megaphone.fm/PDP6475704364.mp3",
+     "summary": "Is the AI singularity actually coming? Bob McGrew, former Chief Research Officer at OpenAI, argues that superintelligence won’t arrive without changes in the physical world, and that the “hard takeoff” argument is wrong. Sarah Guo and Elad Gil sit down with Bob, an early key exec"
+    },
+    {
      "id": "c9a0c39e-de2a-11f1-9237-d39059052d4c",
      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
      "date": "2026-11-12T11:00:00.000Z",
@@ -457,15 +466,6 @@
      "size": 0,
      "url": "https://traffic.megaphone.fm/PDP7232498988.mp3",
      "summary": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial inte"
-    },
-    {
-     "id": "8476d0dc-a726-11f1-86e6-bbc25e1787ef",
-     "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
-     "date": "2026-09-03T10:00:00.000Z",
-     "duration": 2226,
-     "size": 0,
-     "url": "https://traffic.megaphone.fm/PDP3024512727.mp3",
-     "summary": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain,"
     }
    ]
   },
