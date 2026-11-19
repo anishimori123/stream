@@ -13,6 +13,35 @@
       ]
     },
     {
+      "id": "ntv-news24",
+      "name": "日テレNEWS 24 (Nippon TV)",
+      "desc": "Nippon TV's official 24-hour news live on YouTube. Plays in the app.",
+      "type": "youtube",
+      "channelId": "UCuTAXTexrhetbOe3zgskJBQ",
+      "watchUrl": "https://www.youtube.com/watch?v=t9kwjZBLI-A"
+    },
+    {
+      "id": "tbs-newsdig",
+      "name": "TBS NEWS DIG",
+      "desc": "TBS's official news channel on YouTube. Plays when they are live.",
+      "type": "youtube",
+      "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA"
+    },
+    {
+      "id": "ann-news",
+      "name": "ANN News (TV Asahi)",
+      "desc": "TV Asahi's official news channel. Live news several times a day. Opens YouTube.",
+      "type": "link",
+      "urls": ["https://www.youtube.com/@ANNnewsCH/live"]
+    },
+    {
+      "id": "abema-prime",
+      "name": "ABEMA Prime (official YouTube)",
+      "desc": "ABEMA's news/debate show. ABEMA's own app is Japan-only, but this show posts on YouTube. Opens YouTube.",
+      "type": "link",
+      "urls": ["https://www.youtube.com/results?search_query=ABEMA+Prime+%E5%85%AC%E5%BC%8F"]
+    },
+    {
       "id": "shop-channel",
       "name": "Shop Channel",
       "desc": "Japanese home-shopping channel. Good for listening practice. Official stream, not 24/7.",

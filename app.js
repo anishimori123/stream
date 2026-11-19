@@ -1,5 +1,5 @@
 // Stream app — plays official Japan TV streams and keeps a learning list.
-const APP_VERSION = "0.3.0";
+const APP_VERSION = "0.4.0";
 
 const video = document.getElementById("video");
 const statusEl = document.getElementById("status");
@@ -45,10 +45,28 @@ function itemContent(node, icon, name, desc) {
 }
 
 // ---------- Player ----------
+const ytFrame = document.getElementById("yt-frame");
+const ytLink = document.getElementById("yt-link");
+
 function stopPlayer() {
   if (hls) { hls.destroy(); hls = null; }
   video.removeAttribute("src");
   video.load();
+  ytFrame.src = "about:blank";
+  ytFrame.hidden = true;
+  ytLink.hidden = true;
+  video.hidden = false;
+}
+
+// Official YouTube live channels play in YouTube's own embedded player.
+function playYouTube(ch) {
+  stopPlayer();
+  setStatus("");
+  video.hidden = true;
+  ytFrame.hidden = false;
+  ytFrame.src = `https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&playsinline=1`;
+  ytLink.href = ch.watchUrl || `https://www.youtube.com/channel/${ch.channelId}/live`;
+  ytLink.hidden = false;
 }
 
 // Try each URL in order until one plays.
@@ -58,6 +76,7 @@ function playChannel(ch) {
   document.querySelectorAll("#tv-list .item").forEach((n) =>
     n.classList.toggle("active", n.dataset.id === ch.id)
   );
+  if (ch.type === "youtube") return playYouTube(ch);
   tryUrl(ch, 0);
 }
 
@@ -106,7 +125,7 @@ function renderTv(channels) {
     } else {
       const b = el("button", "item");
       b.dataset.id = ch.id;
-      itemContent(b, "▶", ch.name, ch.desc);
+      itemContent(b, ch.type === "youtube" ? "📺" : "▶", ch.name, ch.desc);
       b.addEventListener("click", () => {
         playChannel(ch);
         window.scrollTo({ top: 0, behavior: "smooth" });

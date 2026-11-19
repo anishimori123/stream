@@ -27,9 +27,11 @@
     <section id="tab-tv" class="tab">
       <div class="player-wrap">
         <video id="video" controls playsinline></video>
+        <iframe id="yt-frame" hidden title="YouTube live player" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <div id="status" class="status">Pick a channel below</div>
       </div>
       <h2 id="now" class="now"></h2>
+      <a id="yt-link" class="ytlink" target="_blank" rel="noopener" hidden>Not playing? Open on YouTube ↗</a>
       <ul id="tv-list" class="list"></ul>
     </section>
 

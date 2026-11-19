@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.4.0 (2026-11-18, 22:05 PT)
+
+**Time spent:** about 15 minutes
+
+**What changed**
+- Japan TV tab can now play **official YouTube live channels inside the app**.
+- Added **日テレNEWS 24 (Nippon TV)** and **TBS NEWS DIG** (play in the app).
+- Added **ANN News (TV Asahi)** and **ABEMA Prime** (open YouTube).
+- "Not playing? Open on YouTube" link under the player for YouTube channels.
+
+**Why**
+- More Japanese channels, using only the stations' own official streams.
+- ABEMA's own app only works inside Japan, so its official YouTube show is the legal option.
+
+**Known limits**
+- TBS NEWS DIG only plays when they are live; otherwise use the "Open on YouTube" link.
+- A station can turn off embedding at any time; the link then still works.
+
 ## v0.3.0 (2026-11-18, 22:00 PT)
 
 **Time spent:** about 20 minutes
