@@ -19,6 +19,7 @@
       <button role="tab" data-tab="tv" aria-selected="true">Japan TV</button>
       <button role="tab" data-tab="learn" aria-selected="false">Learning</button>
       <button role="tab" data-tab="pod" aria-selected="false">Podcasts</button>
+      <button role="tab" data-tab="mix" aria-selected="false">Mixtapes</button>
     </nav>
   </header>
 
@@ -52,6 +53,33 @@
       <p id="pod-info" class="hint small"></p>
       <ul id="pod-list" class="list"></ul>
     </section>
+
+    <section id="tab-mix" class="tab" hidden>
+      <h3 class="sub first">J.PERIOD</h3>
+      <p class="hint">Official pages. Stream his mixes and live broadcasts (needs internet).</p>
+      <ul id="mix-links" class="list"></ul>
+
+      <h3 class="sub">My mixtapes</h3>
+      <p class="hint">Saved on this device. Play with no internet (great for the car).</p>
+      <label class="addfile">
+        <input id="mix-file" type="file" accept="audio/*,.mp3,.m4a,.aac,.wav,.flac,.ogg" multiple hidden>
+        ➕ Add audio file
+      </label>
+      <p id="mix-info" class="hint small"></p>
+      <ul id="mix-list" class="list"></ul>
+
+      <details class="howto">
+        <summary>How to get J.PERIOD's free mixtapes onto your phone</summary>
+        <ol>
+          <li>Open his official <b>Bandcamp</b> or <b>SoundCloud</b> link above on your Pixel.</li>
+          <li>Pick a mixtape that says <b>Free Download</b> or <b>name your price</b> (you can enter 0).</li>
+          <li>Download it. If you get a <b>.zip</b> file, open the <b>Files</b> app, tap the zip, then tap <b>Extract</b>.</li>
+          <li>Come back here, tap <b>➕ Add audio file</b>, and pick the mp3 file(s).</li>
+          <li>Done! It now plays offline. You can delete the original file from Downloads to save space.</li>
+        </ol>
+        <p class="hint small">Only download from his official pages. If a mixtape has a price, buying it supports the artist.</p>
+      </details>
+    </section>
   </main>
 
   <div id="pod-bar" class="podbar" hidden>
@@ -67,5 +95,6 @@
 
   <script src="app.js"></script>
   <script src="podcasts.js"></script>
+  <script src="mixtapes.js"></script>
 </body>
 </html>

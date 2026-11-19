@@ -107,3 +107,14 @@ body.has-podbar main { padding-bottom: 140px; }
   .tabs button { flex: 1; padding: 6px 8px; }
 }
 .chip.more { width: 100%; padding: 10px 12px; }
+
+/* ---------- Mixtapes (v0.3) ---------- */
+.sub.first { margin-top: 4px; }
+.addfile {
+  display: block; text-align: center; margin: 8px 0; padding: 12px; border-radius: 10px;
+  background: var(--accent); color: #fff; font-weight: 600; cursor: pointer;
+}
+.howto { margin-top: 20px; background: var(--card); border-radius: var(--radius); padding: 12px 14px; }
+.howto summary { cursor: pointer; font-weight: 600; }
+.howto ol { padding-left: 20px; margin: 10px 0; }
+.howto li { margin-bottom: 6px; }

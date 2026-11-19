@@ -4,6 +4,7 @@ A small web app with three tabs:
 
 - **Japan TV:** official, free Japan TV streams.
 - **Learning:** a list of interviews with tech leaders (Jensen Huang and others), plus your own list.
+- **Mixtapes:** J.PERIOD's official pages, plus **➕ Add audio file** to save your own mixtape files in the app for offline listening.
 - **Podcasts:** the newest episodes of tech-leader podcasts. Save episodes on your phone and play them later with no internet (great for the car).
 
 It runs in any browser and can be **installed like an app** on Windows and on an Android phone (Pixel). It is free to host and use.
@@ -19,6 +20,7 @@ It runs in any browser and can be **installed like an app** on Windows and on an
 | `app.js` | The logic: plays streams, shows lists, saves "My list" |
 | `channels.json` | **The channel and learning list.** Edit this to add or remove items |
 | `podcasts.js` | The Podcasts tab: episode list, play, save for offline, speed, resume |
+| `mixtapes.js` | The Mixtapes tab: J.PERIOD links, add your own audio files, offline play |
 | `podcasts-config.json` | **Which podcasts to follow.** Edit this to add or remove shows |
 | `podcasts.json` | Latest episodes. Filled in **automatically** by GitHub; don't edit by hand |
 | `scripts/update-podcasts.mjs` | Reads each show's public feed and writes `podcasts.json` |

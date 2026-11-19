@@ -27,6 +27,12 @@
       "urls": ["https://www.youtube.com/weathernews/live"]
     }
   ],
+  "mixtapes": [
+    { "name": "The Live Mixtape", "desc": "J.PERIOD's official site: the Live Mixtape series.", "icon": "🎤", "url": "https://jperiod.com/livemixtape" },
+    { "name": "YouTube", "desc": "Mixes, Live Mixtape videos and his weekly live broadcast.", "icon": "▶", "url": "https://www.youtube.com/jperiodbk" },
+    { "name": "SoundCloud", "desc": "Stream his mixes.", "icon": "☁", "url": "https://soundcloud.com/jperiod" },
+    { "name": "Bandcamp", "desc": "Mixtapes to download (many free or name-your-price).", "icon": "⬇", "url": "https://jperiod.bandcamp.com/music" }
+  ],
   "learning": [
     {
       "name": "Jensen Huang on Acquired (podcast)",

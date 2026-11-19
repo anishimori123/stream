@@ -143,9 +143,15 @@
       alertInline("You're offline and this episode isn't saved. Save episodes while you have Wi-Fi.");
       return;
     }
+    startAudio(src, ep, show, show.name + (offline ? " · saved on device" : " · streaming"));
+  }
+
+  // Shared by the Podcasts tab and the Mixtapes tab (window.StreamPlayer).
+  function startAudio(src, ep, show, subtitle) {
+    current = { ep, show };
     audio.src = src;
     titleEl.textContent = ep.title;
-    showEl.textContent = show.name + (offline ? " · saved on device" : " · streaming");
+    showEl.textContent = subtitle;
     bar.hidden = false;
     document.body.classList.add("has-podbar");
     const pos = store.get(POS_KEY, {})[ep.id];
@@ -156,7 +162,19 @@
     audio.play().catch(() => {});
     setMediaSession(ep, show);
     render();
+    window.dispatchEvent(new Event("stream:nowplaying"));
   }
+
+  window.StreamPlayer = {
+    // item: { id, title, subtitle, blob }
+    playBlob(item) {
+      if (objectUrl) { URL.revokeObjectURL(objectUrl); objectUrl = null; }
+      objectUrl = URL.createObjectURL(item.blob);
+      startAudio(objectUrl, { id: item.id, title: item.title }, { name: item.subtitle || "" }, (item.subtitle || "") + " · saved on device");
+    },
+    stopIf(id) { if (current && current.ep.id === id) audio.pause(); },
+    currentId: () => (current ? current.ep.id : null),
+  };
 
   // Remember where you stopped (every few seconds).
   let lastSave = 0;

@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.3.0 (2026-11-18, 22:00 PT)
+
+**Time spent:** about 20 minutes
+
+**What changed**
+- New **Mixtapes** tab (other tabs unchanged).
+- **J.PERIOD** section with his official pages: The Live Mixtape site, YouTube, SoundCloud, Bandcamp.
+- **➕ Add audio file:** pick mp3/m4a files from the phone or PC; they are saved inside the app and play with no internet.
+- Mixtapes use the same player as podcasts (speed, resume, lock-screen and Bluetooth controls).
+- Step-by-step "how to get his free mixtapes" guide inside the tab.
+
+**Why**
+- J.PERIOD has no podcast feed, but he releases many official mixtapes as free or name-your-price downloads. Importing those files is the legal way to listen offline in the car.
+
+**Known limits**
+- Files must be added on each device separately.
+- .zip downloads must be extracted first (Files app → Extract).
+
 ## v0.2.2 (2026-11-18, 21:50 PT)
 
 **Time spent:** about 10 minutes
