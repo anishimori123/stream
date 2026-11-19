@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:36:03.131Z",
+ "updated": "2026-11-19T05:38:48.628Z",
  "shows": [
   {
    "id": "acquired",
@@ -694,6 +694,122 @@
      "size": 53565231,
      "url": "https://tracking.swap.fm/track/zA4xtlPBvf2K1K9zesjz/op3.dev/e/rss.art19.com/episodes/e1e6aba6-01bc-4e84-a7c9-c9e68ac55920.mp3?rss_browser=BAhJIh5TdHJlYW1BcHAtcG9kY2FzdC11cGRhdGVyBjoGRVQ%3D--86d8326c7a5276654ee2c8e607be8d9fbcc38173",
      "summary": "Thoma Bravo’s co-founder and managing partner reflects on his path from Puerto Rico to pioneering software buyouts."
+    }
+   ]
+  },
+  {
+   "id": "crushonyou",
+   "name": "Sana G's Crush On You",
+   "feed": "https://www.omnycontent.com/d/playlist/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/5316480e-ea86-4e25-af85-b3ee012000f7/podcast.rss",
+   "image": "https://www.omnycontent.com/d/playlist/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/5316480e-ea86-4e25-af85-b3ee012000f7/image.jpg?t=1770830945&size=Large",
+   "episodes": [
+    {
+     "id": "a59a7d86-5f0c-44df-a9af-b5060113d8f2",
+     "title": "After some hard times Dante wants to show love to his sexy Sagittarius wife Brenda for her birthday!",
+     "date": "2026-11-18T16:47:47.000Z",
+     "duration": 299,
+     "size": 4833281,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/a59a7d86-5f0c-44df-a9af-b5060113d8f2/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "fe7c37e0-8bd9-451f-a2e4-b500010a8ace",
+     "title": "Dana caught JT cheating by going through his phone! Now she's getting revenge by dating his UNCLE!",
+     "date": "2026-11-12T16:11:39.000Z",
+     "duration": 410,
+     "size": 6606260,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/fe7c37e0-8bd9-451f-a2e4-b500010a8ace/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "bd55dfd5-2eb7-49df-85cb-b4ff01078957",
+     "title": "Jeremy left his fiancée for Cynthia! Their love stood strong & now she wants to show him appreciation!",
+     "date": "2026-11-11T16:00:47.000Z",
+     "duration": 370,
+     "size": 5965534,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/bd55dfd5-2eb7-49df-85cb-b4ff01078957/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "be936bd7-9242-4ffb-a7f1-b4fe010e284e",
+     "title": "Davante's mad Desiree was talking to an old friend! Was she just being friendly or flirting?",
+     "date": "2026-11-10T16:24:33.000Z",
+     "duration": 399,
+     "size": 6436145,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/be936bd7-9242-4ffb-a7f1-b4fe010e284e/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "347d9e95-9360-4acf-98b3-b4fd01093215",
+     "title": "Gail thinks her client Andre is perfect for her son! But does Andre even like men?",
+     "date": "2026-11-09T16:09:15.000Z",
+     "duration": 360,
+     "size": 5819227,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/347d9e95-9360-4acf-98b3-b4fd01093215/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "f9959813-224e-4d2f-8da5-b4f9010a94d6",
+     "title": "Ty wants to show love to his girl Felicity for buying her first condo!",
+     "date": "2026-11-05T16:13:37.000Z",
+     "duration": 370,
+     "size": 5978040,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/f9959813-224e-4d2f-8da5-b4f9010a94d6/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "c51b264a-a903-4187-b2b2-b4f8013d1223",
+     "title": "Jessica broke off her engagement with Jalen because she was \"bored\" but now she wants him back",
+     "date": "2026-11-04T19:16:46.000Z",
+     "duration": 381,
+     "size": 6152771,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/c51b264a-a903-4187-b2b2-b4f8013d1223/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "e41009d1-600a-4ddb-8717-b4f70102dda4",
+     "title": "Vivian is worried that her man LaMont is going too far with his rap dreams & she wants him to get serious about their future",
+     "date": "2026-11-03T15:46:08.000Z",
+     "duration": 469,
+     "size": 7556308,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/e41009d1-600a-4ddb-8717-b4f70102dda4/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "957f2709-9936-4159-8f8f-b4f60145b2e7",
+     "title": "Sean got scammed by Danielle, but now she's harassing HIM for getting her page shut down!",
+     "date": "2026-11-02T19:46:43.000Z",
+     "duration": 459,
+     "size": 7391597,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/957f2709-9936-4159-8f8f-b4f60145b2e7/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "37dc8028-3c0d-4954-b07c-b4f20136252c",
+     "title": "Rod talked big about dating Mira, but she spotted him with a woman & child! Is he hiding a family?",
+     "date": "2026-10-29T18:49:51.000Z",
+     "duration": 304,
+     "size": 4920631,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/37dc8028-3c0d-4954-b07c-b4f20136252c/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "14e39680-4146-4bf4-8b34-b4f100f2c7ef",
+     "title": "Nick wants to spend holidays with Kenyatta, but she wants to be his WOMAN 1st! Will he commit?",
+     "date": "2026-10-28T14:45:19.000Z",
+     "duration": 374,
+     "size": 6040758,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/14e39680-4146-4bf4-8b34-b4f100f2c7ef/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
+    },
+    {
+     "id": "3de51836-d09e-4685-a2bb-b4f000fc8c10",
+     "title": "Troy enlisted Sana & the fellas to help Alicia say YES to a date! But, things don't go exactly how he planned.",
+     "date": "2026-10-27T15:21:05.000Z",
+     "duration": 517,
+     "size": 8318233,
+     "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/98a2599f-cd9b-4f2a-9be4-b22c00e585f2/22c192a7-0297-4328-8642-b3ee012000f1/3de51836-d09e-4685-a2bb-b4f000fc8c10/audio.mp3?utm_source=Podcast&in_playlist=5316480e-ea86-4e25-af85-b3ee012000f7",
+     "summary": "See omnystudio.com/listener for privacy information."
     }
    ]
   }
