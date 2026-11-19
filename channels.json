@@ -35,6 +35,13 @@
       "urls": ["https://www.youtube.com/@ANNnewsCH/live"]
     },
     {
+      "id": "tvtokyo-biz",
+      "name": "テレ東BIZ (TV Tokyo Business)",
+      "desc": "TV Tokyo's official business & market news. Market live every Friday 3 PM Japan time (Thursday 10 PM in California). Opens YouTube.",
+      "type": "link",
+      "urls": ["https://www.youtube.com/c/tvtokyonews"]
+    },
+    {
       "id": "abema-prime",
       "name": "ABEMA Prime (official YouTube)",
       "desc": "ABEMA's news/debate show. ABEMA's own app is Japan-only, but this show posts on YouTube. Opens YouTube.",

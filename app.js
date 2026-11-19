@@ -1,5 +1,5 @@
 // Stream app — plays official Japan TV streams and keeps a learning list.
-const APP_VERSION = "0.4.0";
+const APP_VERSION = "0.4.1";
 
 const video = document.getElementById("video");
 const statusEl = document.getElementById("status");

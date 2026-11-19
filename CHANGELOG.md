@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.4.1 (2026-11-18, 22:00 PT)
+
+**Time spent:** about 5 minutes
+
+**What changed**
+- Added **テレ東BIZ (TV Tokyo Business)** to the Japan TV tab (opens its official YouTube channel).
+
+**Why**
+- Atsushi picked it: business and stock-market news in Japanese, useful for trading and listening practice.
+
 ## v0.4.0 (2026-11-18, 22:05 PT)
 
 **Time spent:** about 15 minutes
