@@ -49,7 +49,9 @@ Videos you add inside the app under **My list** are saved only on that device (y
 1. Every 6 hours, GitHub runs a small script for free (a "GitHub Action").
 2. The script finds each show's public RSS feed (a list of episodes that podcast creators publish for podcast apps) and saves the newest episodes into `podcasts.json`.
 3. The app reads that file. Tap **▶** to stream, or **⬇ Save** to store the episode on your device.
-4. Saved episodes play with **no internet**. The app remembers where you stopped, and you can change speed (1× to 2×). Phone lock-screen and car Bluetooth buttons work too.
+4. The Podcasts tab has two sub-tabs: **Tech & Leaders** and **Crush On You** (with search).
+5. **Auto-next** plays the next episode in the same list when one ends (turn it off with the button in the player).
+6. Saved episodes play with **no internet**. The app remembers where you stopped, and you can change speed (1× to 2×). Phone lock-screen and car Bluetooth buttons work too.
 
 To refresh episodes right away: open the repo's **Actions** tab, then **Update podcast episodes**, then **Run workflow**.
 

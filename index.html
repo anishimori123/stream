@@ -51,7 +51,9 @@
 
     <section id="tab-pod" class="tab" hidden>
       <p class="hint">Tap <b>⬇ Save</b> to keep an episode on this device, then play it later with no internet (great for the car).</p>
+      <div id="pod-subs" class="subtabs" role="tablist"></div>
       <div id="pod-chips" class="chips"></div>
+      <input id="pod-search" class="search" type="search" placeholder="Search episodes" autocomplete="off">
       <p id="pod-info" class="hint small"></p>
       <ul id="pod-list" class="list"></ul>
     </section>
@@ -90,6 +92,7 @@
         <div id="pod-title" class="name"></div>
         <div id="pod-show" class="desc"></div>
       </div>
+      <button id="pod-auto" class="speed auto" title="Play the next episode automatically">Auto-next ON</button>
       <button id="pod-speed" class="speed" title="Playback speed">1×</button>
     </div>
     <audio id="pod-audio" controls preload="metadata"></audio>

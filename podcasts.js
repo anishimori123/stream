@@ -170,6 +170,7 @@
     playBlob(item) {
       if (objectUrl) { URL.revokeObjectURL(objectUrl); objectUrl = null; }
       objectUrl = URL.createObjectURL(item.blob);
+      queue = []; // mixtapes don't auto-continue into podcasts
       startAudio(objectUrl, { id: item.id, title: item.title }, { name: item.subtitle || "" }, (item.subtitle || "") + " · saved on device");
     },
     stopIf(id) { if (current && current.ep.id === id) audio.pause(); },
@@ -193,8 +194,40 @@
     const done = store.get("stream.pod.done", {});
     done[current.ep.id] = true;
     store.set("stream.pod.done", done);
-    render();
+    if (!(store.get("stream.pod.auto", true) && playNext())) render();
   });
+
+  // ---------- auto-play next ----------
+  // The "queue" is the list you pressed ▶ in (e.g. Crush On You, or Saved).
+  // When an episode ends, the next one in that list starts. Offline, it skips to the next SAVED one.
+  let queue = [];
+  let lastRows = [];
+  function playNext() {
+    if (!current || !queue.length) return false;
+    const i = queue.findIndex((r) => r.ep.id === current.ep.id);
+    for (let j = i + 1; j < queue.length; j++) {
+      const r = queue[j];
+      if (navigator.onLine || savedIds.has(r.ep.id)) { play(r.ep, r.show); return true; }
+    }
+    return false;
+  }
+  function playPrev() {
+    if (!current) return;
+    const i = queue.findIndex((r) => r.ep.id === current.ep.id);
+    if (audio.currentTime > 5 || i <= 0) { audio.currentTime = 0; return; }
+    for (let j = i - 1; j >= 0; j--) {
+      const r = queue[j];
+      if (navigator.onLine || savedIds.has(r.ep.id)) return play(r.ep, r.show);
+    }
+  }
+  const autoBtn = document.getElementById("pod-auto");
+  function showAuto() {
+    const on = store.get("stream.pod.auto", true);
+    autoBtn.textContent = on ? "Auto-next ON" : "Auto-next OFF";
+    autoBtn.classList.toggle("on", on);
+  }
+  autoBtn.addEventListener("click", () => { store.set("stream.pod.auto", !store.get("stream.pod.auto", true)); showAuto(); });
+  showAuto();
 
   const SPEEDS = [1, 1.25, 1.5, 1.75, 2];
   function showSpeed() { speedBtn.textContent = audio.playbackRate + "×"; }
@@ -220,20 +253,57 @@
       navigator.mediaSession.setActionHandler("pause", () => audio.pause());
       navigator.mediaSession.setActionHandler("seekbackward", skip(-15));
       navigator.mediaSession.setActionHandler("seekforward", skip(30));
-      navigator.mediaSession.setActionHandler("previoustrack", skip(-15));
-      navigator.mediaSession.setActionHandler("nexttrack", skip(30));
+      // Car / headphone "next" and "back" buttons move between episodes.
+      navigator.mediaSession.setActionHandler("previoustrack", queue.length ? playPrev : skip(-15));
+      navigator.mediaSession.setActionHandler("nexttrack", queue.length ? () => { if (!playNext()) skip(30)(); } : skip(30));
     } catch {}
   }
 
+  // ---------- sub-tabs ----------
+  // Crush On You gets its own sub-tab so its 1,000+ episodes don't crowd the tech shows.
+  const SUBS = [
+    { id: "main", label: "🎙 Tech & Leaders", has: (showId) => showId !== "crushonyou" },
+    { id: "crush", label: "💘 Crush On You", has: (showId) => showId === "crushonyou" },
+  ];
+  let sub = "main";
+  let query = "";
+  const subsEl = document.getElementById("pod-subs");
+  const searchEl = document.getElementById("pod-search");
+  const subDef = () => SUBS.find((s) => s.id === sub) || SUBS[0];
+  const groupShows = () => shows.filter((s) => subDef().has(s.id));
+  searchEl.addEventListener("input", () => {
+    clearTimeout(searchEl.t);
+    searchEl.t = setTimeout(() => { query = searchEl.value.trim().toLowerCase(); render(); }, 200);
+  });
+
   // ---------- rendering ----------
   function renderChips() {
+    subsEl.innerHTML = "";
+    for (const s of SUBS) {
+      const b = $("button", "subtab" + (sub === s.id ? " on" : ""), s.label);
+      b.setAttribute("role", "tab");
+      b.setAttribute("aria-selected", String(sub === s.id));
+      b.addEventListener("click", () => {
+        if (sub === s.id) return;
+        sub = s.id;
+        store.set("stream.pod.sub", sub);
+        filter = store.get("stream.pod.filter." + sub, "all");
+        query = ""; searchEl.value = "";
+        render();
+      });
+      subsEl.append(b);
+    }
     chipsEl.innerHTML = "";
-    const opts = [["all", "All"], ["saved", "⬇ Saved"], ...shows.map((s) => [s.id, s.name])];
+    const g = groupShows();
+    const opts = [["all", sub === "crush" ? "All episodes" : "All"], ["saved", "⬇ Saved"]];
+    if (g.length > 1) opts.push(...g.map((s) => [s.id, s.name]));
     for (const [id, label] of opts) {
       const b = $("button", "chip" + (filter === id ? " on" : ""), label);
-      b.addEventListener("click", () => { filter = id; store.set("stream.pod.filter", id); render(); });
+      b.addEventListener("click", () => { filter = id; store.set("stream.pod.filter." + sub, id); render(); });
       chipsEl.append(b);
     }
+    const count = g.reduce((a, s) => a + s.episodes.length, 0);
+    searchEl.placeholder = count ? `Search ${count.toLocaleString()} episodes` : "Search episodes";
   }
 
   async function updateInfo() {
@@ -252,18 +322,26 @@
     if (btn) btn.textContent = `${downloading.get(id)}%`;
   }
 
+  const matches = (ep) =>
+    !query || (ep.title + " " + (ep.summary || "")).toLowerCase().includes(query);
+
   async function episodesToShow() {
     if (filter === "saved") {
       const meta = await dbAllMeta().catch(() => []);
-      return meta.sort((a, b) => b.savedAt - a.savedAt).map((m) => ({
-        ep: m.ep,
-        show: shows.find((s) => s.id === m.showId) || { id: m.showId, name: m.showName, image: m.image },
-      }));
+      return meta
+        .filter((m) => subDef().has(m.showId) && matches(m.ep))
+        .sort((a, b) => b.savedAt - a.savedAt)
+        .map((m) => ({
+          ep: m.ep,
+          show: shows.find((s) => s.id === m.showId) || { id: m.showId, name: m.showName, image: m.image },
+        }));
     }
-    const pool = filter === "all" ? shows : shows.filter((s) => s.id === filter);
-    const rows = pool.flatMap((show) => show.episodes.map((ep) => ({ ep, show })));
+    const g = groupShows();
+    const pool = filter === "all" ? g : g.filter((s) => s.id === filter);
+    const rows = pool.flatMap((show) => show.episodes.filter(matches).map((ep) => ({ ep, show })));
     rows.sort((a, b) => (b.ep.date || "").localeCompare(a.ep.date || ""));
-    return filter === "all" ? rows.slice(0, 40) : rows;
+    // The mixed "All" list of tech shows only needs the newest 40.
+    return sub === "main" && filter === "all" && !query ? rows.slice(0, 40) : rows;
   }
 
   const PAGE = 50;
@@ -272,9 +350,11 @@
   let renderToken = 0;
   async function render() {
     const token = ++renderToken;
-    if (filter !== lastFilter) { limit = PAGE; lastFilter = filter; }
+    const viewKey = sub + "|" + filter + "|" + query;
+    if (viewKey !== lastFilter) { limit = PAGE; lastFilter = viewKey; }
     renderChips();
     const allRows = await episodesToShow();
+    lastRows = allRows;
     if (token !== renderToken) return;
     const rows = allRows.slice(0, limit);
     listEl.innerHTML = "";
@@ -282,7 +362,9 @@
     const pos = store.get(POS_KEY, {});
 
     if (!rows.length) {
-      const msg = filter === "saved"
+      const msg = query
+        ? `No episodes match "${query}".`
+        : filter === "saved"
         ? "Nothing saved yet. Tap ⬇ Save on any episode."
         : shows.length ? "No episodes here." : "Episodes are being collected for the first time. Check back in a few minutes.";
       listEl.append($("li", "hint", msg));
@@ -293,6 +375,7 @@
       const row = $("div", "item ep" + (current && current.ep.id === ep.id ? " active" : ""));
       if (show.image) {
         const img = $("img", "cover"); img.src = show.image; img.alt = ""; img.loading = "lazy";
+        img.onerror = () => img.replaceWith($("span", "icon", "🎧"));
         row.append(img);
       } else {
         row.append($("span", "icon", "🎧"));
@@ -308,7 +391,7 @@
       const btns = $("div", "btns");
       const playB = $("button", "btn play", "▶");
       playB.title = "Play";
-      playB.addEventListener("click", () => play(ep, show));
+      playB.addEventListener("click", () => { queue = lastRows.slice(); play(ep, show); });
       btns.append(playB);
 
       if (downloading.has(ep.id)) {
@@ -354,7 +437,9 @@
 
   // ---------- start ----------
   async function init() {
-    filter = store.get("stream.pod.filter", "all");
+    sub = store.get("stream.pod.sub", "main");
+    if (!SUBS.some((s) => s.id === sub)) sub = "main";
+    filter = store.get("stream.pod.filter." + sub, "all");
     try { savedIds = new Set(await dbKeys()); } catch { savedIds = new Set(); }
     try {
       const data = await fetch("podcasts.json", { cache: "no-cache" }).then((r) => r.json());
@@ -362,7 +447,7 @@
     } catch {
       shows = [];
     }
-    if (filter !== "all" && filter !== "saved" && !shows.some((s) => s.id === filter)) filter = "all";
+    if (filter !== "all" && filter !== "saved" && !groupShows().some((s) => s.id === filter)) filter = "all";
     // With no internet, jump straight to saved episodes.
     if (!navigator.onLine && savedIds.size) filter = "saved";
     render();

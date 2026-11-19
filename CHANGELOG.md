@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.5.0 (2026-11-18, 22:20 PT)
+
+**Time spent:** about 25 minutes
+
+**What changed**
+- Podcasts tab now has two **sub-tabs**: **🎙 Tech & Leaders** and **💘 Crush On You**.
+- Crush On You sub-tab has its own **search box** across all 1,118+ episodes, plus All / Saved filters.
+- **Auto-next:** when an episode ends, the next one in the same list starts automatically (newest → older). Offline, it skips to the next *saved* episode. Toggle with the **Auto-next ON/OFF** button in the player.
+- Car / headphone **next** and **back** buttons now move between episodes.
+- The app remembers which sub-tab you were on.
+- Broken cover pictures are replaced with a 🎧 icon.
+
+**Why**
+- Keep the big Crush On You archive separate from the tech shows, and let episodes play back-to-back in the car without touching the phone.
+
 ## v0.4.2 (2026-11-18, 22:05 PT)
 
 **Time spent:** about 5 minutes
