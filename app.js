@@ -1,5 +1,5 @@
 // Stream app — plays official Japan TV streams and keeps a learning list.
-const APP_VERSION = "0.4.1";
+const APP_VERSION = "0.4.2";
 
 const video = document.getElementById("video");
 const statusEl = document.getElementById("status");
@@ -64,8 +64,8 @@ function playYouTube(ch) {
   setStatus("");
   video.hidden = true;
   ytFrame.hidden = false;
-  ytFrame.src = `https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&playsinline=1`;
-  ytLink.href = ch.watchUrl || `https://www.youtube.com/channel/${ch.channelId}/live`;
+  ytFrame.src = `https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&playsinline=1&hl=ja&cc_lang_pref=ja`;
+  ytLink.href = ch.watchUrl || `https://www.youtube.com/channel/${ch.channelId}/live?hl=ja`;
   ytLink.hidden = false;
 }
 

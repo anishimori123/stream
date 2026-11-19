@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.4.2 (2026-11-18, 22:05 PT)
+
+**Time spent:** about 5 minutes
+
+**What changed**
+- Japanese YouTube links and the in-app YouTube player now ask YouTube for Japanese (`hl=ja`), so titles aren't auto-translated to English in the browser.
+
+**Why**
+- YouTube auto-translated TV Tokyo BIZ titles (and sometimes audio) into English because the account language is English.
+
+**Known limits**
+- The YouTube phone app ignores this setting; switch audio to the original in ⚙ → Audio track, or change the app's language.
+
 ## v0.4.1 (2026-11-18, 22:00 PT)
 
 **Time spent:** about 5 minutes
