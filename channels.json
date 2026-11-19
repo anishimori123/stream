@@ -1,0 +1,72 @@
+{
+  "_note": "Only official streams go here. Each channel can have several URLs; the app tries them in order until one plays.",
+  "tv": [
+    {
+      "id": "nhk-world",
+      "name": "NHK World-Japan",
+      "desc": "NHK's free international channel (English news, Japan culture). Official stream.",
+      "type": "hls",
+      "urls": [
+        "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
+        "https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8",
+        "https://media-osa.hls.nhkworld.jp/hls/w/live/master.m3u8"
+      ]
+    },
+    {
+      "id": "shop-channel",
+      "name": "Shop Channel",
+      "desc": "Japanese home-shopping channel. Good for listening practice. Official stream, not 24/7.",
+      "type": "hls",
+      "urls": ["https://stream3.shopch.jp/HLS/master.m3u8"]
+    },
+    {
+      "id": "weathernews",
+      "name": "Weathernews LiVE",
+      "desc": "Japanese weather news, live on its official YouTube channel. Opens YouTube.",
+      "type": "link",
+      "urls": ["https://www.youtube.com/weathernews/live"]
+    }
+  ],
+  "learning": [
+    {
+      "name": "Jensen Huang on Acquired (podcast)",
+      "desc": "Long interview on how NVIDIA was built.",
+      "url": "https://www.youtube.com/results?search_query=Acquired+podcast+Jensen+Huang+interview"
+    },
+    {
+      "name": "Jensen Huang with Patrick Collison (Stripe Sessions)",
+      "desc": "How Jensen runs NVIDIA and makes decisions.",
+      "url": "https://www.youtube.com/results?search_query=Jensen+Huang+Patrick+Collison+Stripe+Sessions"
+    },
+    {
+      "name": "Jensen Huang on BG2 Pod",
+      "desc": "AI, chips, and thinking 10 years ahead.",
+      "url": "https://www.youtube.com/results?search_query=BG2+Pod+Jensen+Huang"
+    },
+    {
+      "name": "Satya Nadella interviews",
+      "desc": "Microsoft CEO on AI and leadership.",
+      "url": "https://www.youtube.com/results?search_query=Satya+Nadella+interview+AI"
+    },
+    {
+      "name": "Lisa Su interviews",
+      "desc": "AMD CEO on turning a company around.",
+      "url": "https://www.youtube.com/results?search_query=Lisa+Su+interview"
+    },
+    {
+      "name": "Demis Hassabis interviews",
+      "desc": "Google DeepMind CEO on AI research.",
+      "url": "https://www.youtube.com/results?search_query=Demis+Hassabis+interview"
+    },
+    {
+      "name": "Dario Amodei interviews",
+      "desc": "Anthropic CEO on AI safety and the future.",
+      "url": "https://www.youtube.com/results?search_query=Dario+Amodei+interview"
+    },
+    {
+      "name": "Stanford GSB: View From The Top",
+      "desc": "Top CEOs talk to business students.",
+      "url": "https://www.youtube.com/results?search_query=Stanford+GSB+View+From+The+Top"
+    }
+  ]
+}
