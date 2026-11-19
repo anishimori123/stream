@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.2.2 (2026-11-18, 21:50 PT)
+
+**Time spent:** about 10 minutes
+
+**What changed**
+- **Archive mode** for Sana G's Crush On You: the app keeps every episode in the show's history plus each new one, instead of only the newest 12.
+- Episodes are never dropped from the list, even if the show's feed later removes old ones.
+- Long lists show 50 episodes at a time with a **Show more** button.
+- New `keepAll` option in `podcasts-config.json` to turn archive mode on for any show.
+
+**Why**
+- Atsushi wants to keep getting new episodes and keep the old ones too.
+
 ## v0.2.1 (2026-11-18, 21:45 PT)
 
 **Time spent:** about 5 minutes

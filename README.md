@@ -51,6 +51,8 @@ Videos you add inside the app under **My list** are saved only on that device (y
 
 To refresh episodes right away: open the repo's **Actions** tab, then **Update podcast episodes**, then **Run workflow**.
 
+To keep **every** episode of a show (old and new), add `"keepAll": true` to its line. Sana G's Crush On You already has it.
+
 To add a show: in `podcasts-config.json`, copy one line and change `id`, `name`, `search` (words to find it) and `match` (a word in the show's real name). Commit, and GitHub updates the list within a few minutes.
 
 **Notes:** episodes take about 50–150 MB per hour of audio. A few podcast servers don't allow web apps to save files. Those episodes can still be streamed. If your phone runs very low on space, Android may clear saved episodes.

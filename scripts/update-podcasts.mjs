@@ -37,7 +37,7 @@ function toSeconds(d) {
   return d.split(":").map(Number).reduce((acc, n) => acc * 60 + (n || 0), 0);
 }
 
-export function parseFeed(xml) {
+export function parseFeed(xml, max = MAX) {
   const channel = xml.split(/<item[\s>]/i)[0];
   const image = attr(channel, "itunes:image", "href") || tag(tag(channel, "image"), "url");
   const items = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) || [];
@@ -57,7 +57,7 @@ export function parseFeed(xml) {
       url,
       summary: stripHtml(tag(it, "itunes:summary") || tag(it, "description")).slice(0, 280),
     });
-    if (episodes.length >= MAX) break;
+    if (episodes.length >= max) break;
   }
   return { title: tag(channel, "title"), image, episodes };
 }
@@ -83,10 +83,18 @@ for (const show of config.shows) {
     const feed = await findFeed(show);
     const res = await fetch(feed, { headers: { "User-Agent": UA }, redirect: "follow" });
     if (!res.ok) throw new Error(`feed download failed (${res.status})`);
-    const parsed = parseFeed(await res.text());
+    const parsed = parseFeed(await res.text(), show.keepAll ? Infinity : MAX);
     if (!parsed.episodes.length) throw new Error("feed had no audio episodes");
-    out.shows.push({ id: show.id, name: show.name, feed, image: parsed.image, episodes: parsed.episodes });
-    console.log(`✓ ${show.name}: ${parsed.episodes.length} episodes (${feed})`);
+    let episodes = parsed.episodes;
+    if (show.keepAll) {
+      // Archive mode: keep every episode we've ever seen, even if the feed later drops old ones.
+      const old = previous.shows?.find((s) => s.id === show.id)?.episodes || [];
+      const byId = new Map(old.map((e) => [e.id, e]));
+      for (const e of episodes) byId.set(e.id, e); // newest info wins
+      episodes = [...byId.values()].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    }
+    out.shows.push({ id: show.id, name: show.name, feed, image: parsed.image, keepAll: !!show.keepAll, episodes });
+    console.log(`✓ ${show.name}: ${episodes.length} episodes${show.keepAll ? " (archive)" : ""} (${feed})`);
   } catch (err) {
     const old = previous.shows?.find((s) => s.id === show.id);
     if (old) out.shows.push(old);

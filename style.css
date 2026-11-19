@@ -106,3 +106,4 @@ body.has-podbar main { padding-bottom: 140px; }
   .tabs { width: 100%; justify-content: space-between; }
   .tabs button { flex: 1; padding: 6px 8px; }
 }
+.chip.more { width: 100%; padding: 10px 12px; }

@@ -248,12 +248,17 @@
     return filter === "all" ? rows.slice(0, 40) : rows;
   }
 
+  const PAGE = 50;
+  let limit = PAGE;
+  let lastFilter = null;
   let renderToken = 0;
   async function render() {
     const token = ++renderToken;
+    if (filter !== lastFilter) { limit = PAGE; lastFilter = filter; }
     renderChips();
-    const rows = await episodesToShow();
+    const allRows = await episodesToShow();
     if (token !== renderToken) return;
+    const rows = allRows.slice(0, limit);
     listEl.innerHTML = "";
     const done = store.get("stream.pod.done", {});
     const pos = store.get(POS_KEY, {});
@@ -307,6 +312,13 @@
       }
       row.append(btns);
       li.append(row);
+      listEl.append(li);
+    }
+    if (allRows.length > rows.length) {
+      const li = $("li");
+      const more = $("button", "chip more", `Show more (${allRows.length - rows.length} older episodes)`);
+      more.addEventListener("click", () => { limit += PAGE; render(); });
+      li.append(more);
       listEl.append(li);
     }
     updateInfo();

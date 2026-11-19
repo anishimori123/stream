@@ -1,5 +1,5 @@
 {
-  "_note": "Shows to follow. 'search' is used to find the show's public RSS feed through Apple's free podcast search. If you already know the RSS feed address, put it in 'feed' and it will be used instead. 'match' must appear in the show's name.",
+  "_note": "Shows to follow. 'search' is used to find the show's public RSS feed through Apple's free podcast search. If you already know the RSS feed address, put it in 'feed' and it will be used instead. 'match' must appear in the show's name. 'keepAll': true keeps every episode ever (archive) instead of only the newest ones.",
   "maxEpisodesPerShow": 12,
   "shows": [
     { "id": "acquired", "name": "Acquired", "search": "Acquired Ben Gilbert David Rosenthal", "match": "acquired", "feed": "" },
@@ -8,6 +8,6 @@
     { "id": "nopriors", "name": "No Priors", "search": "No Priors AI podcast", "match": "no priors", "feed": "" },
     { "id": "lex", "name": "Lex Fridman Podcast", "search": "Lex Fridman Podcast", "match": "lex fridman", "feed": "" },
     { "id": "vftt", "name": "View From The Top (Stanford GSB)", "search": "View From The Top Stanford GSB", "match": "view from the top", "feed": "" },
-    { "id": "crushonyou", "name": "Sana G's Crush On You", "search": "Sana G's Crush On You", "match": "crush on you", "feed": "" }
+    { "id": "crushonyou", "name": "Sana G's Crush On You", "search": "Sana G's Crush On You", "match": "crush on you", "feed": "", "keepAll": true }
   ]
 }
