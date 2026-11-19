@@ -7,6 +7,7 @@
     { "id": "bg2", "name": "BG2Pod", "search": "BG2Pod Brad Gerstner", "match": "bg2", "feed": "" },
     { "id": "nopriors", "name": "No Priors", "search": "No Priors AI podcast", "match": "no priors", "feed": "" },
     { "id": "lex", "name": "Lex Fridman Podcast", "search": "Lex Fridman Podcast", "match": "lex fridman", "feed": "" },
-    { "id": "vftt", "name": "View From The Top (Stanford GSB)", "search": "View From The Top Stanford GSB", "match": "view from the top", "feed": "" }
+    { "id": "vftt", "name": "View From The Top (Stanford GSB)", "search": "View From The Top Stanford GSB", "match": "view from the top", "feed": "" },
+    { "id": "crushonyou", "name": "Sana G's Crush On You", "search": "Sana G's Crush On You", "match": "crush on you", "feed": "" }
   ]
 }

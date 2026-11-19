@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.1 (2026-11-18, 21:45 PT)
+
+**Time spent:** about 5 minutes
+
+**What changed**
+- Added the podcast **Sana G's Crush On You** (iHeart) to the Podcasts tab.
+
+**Why**
+- Requested by Atsushi. It is published as a podcast, so it can be saved for offline listening like the other shows.
+
 ## v0.2.0 (2026-11-18, 21:45 PT)
 
 **Time spent:** about 25 minutes
