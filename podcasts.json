@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:37:04.298Z",
+ "updated": "2026-11-24T22:25:44.135Z",
  "shows": [
   {
    "id": "acquired",
@@ -126,6 +126,15 @@
    "keepAll": false,
    "episodes": [
     {
+     "id": "substack:post:226413128",
+     "title": "Responding to objections to recursive self-improvement",
+     "date": "2026-11-24T21:45:30.000Z",
+     "duration": 3923,
+     "size": 62776386,
+     "url": "https://api.substack.com/feed/podcast/226413128/4ad273437a5ffb5c6234fc0a6a855326.mp3",
+     "summary": "I responded to the strongest objections that people had about the RSI essay. Watch on YouTube ; read the transcript . Timestamps (00:00:00) – “Do you have a real job?” (00:02:41) – Cindy Wu: Is AI research a verifiable domain? (00:11:10) – corsaren: The overarching objection (00:"
+    },
+    {
      "id": "substack:post:225196123",
      "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
      "date": "2026-11-16T17:46:28.000Z",
@@ -223,15 +232,6 @@
      "size": 73804215,
      "url": "https://api.substack.com/feed/podcast/212689635/cf7a1608fcec427861f1b832ba9f1e8a.mp3",
      "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel. We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next "
-    },
-    {
-     "id": "substack:post:210737923",
-     "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
-     "date": "2026-08-11T16:31:23.000Z",
-     "duration": 7952,
-     "size": 127224832,
-     "url": "https://api.substack.com/feed/podcast/210737923/e93bde91ce72fbf50e2faa22a7a594d0.mp3",
-     "summary": "Ryan Greenblatt is the Chief Scientist at Redwood Research, where he works on technical AI safety research. He's also lead author on the \"Alignment faking in Large Language Models\", and is currently working on a third party investigation into the OpenAI/HuggingFace incident. In m"
     }
    ]
   },
