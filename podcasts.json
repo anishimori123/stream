@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:25:44.135Z",
+ "updated": "2026-11-27T21:14:53.466Z",
  "shows": [
   {
    "id": "acquired",
@@ -126,6 +126,15 @@
    "keepAll": false,
    "episodes": [
     {
+     "id": "substack:post:226789196",
+     "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+     "date": "2026-11-27T18:01:14.000Z",
+     "duration": 5762,
+     "size": 92187314,
+     "url": "https://api.substack.com/feed/podcast/226789196/89485c0543b57f829184d38024dba666.mp3",
+     "summary": "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected. Their main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more compe"
+    },
+    {
      "id": "substack:post:226413128",
      "title": "Responding to objections to recursive self-improvement",
      "date": "2026-11-24T21:45:30.000Z",
@@ -223,15 +232,6 @@
      "size": 23685046,
      "url": "https://api.substack.com/feed/podcast/213603862/1e27c584393e0d2044654bcd88d38e5c.mp3",
      "summary": "This is a video recording of a post I wrote last week. You can read the original here . This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com"
-    },
-    {
-     "id": "substack:post:212689635",
-     "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
-     "date": "2026-08-25T15:32:57.000Z",
-     "duration": 4613,
-     "size": 73804215,
-     "url": "https://api.substack.com/feed/podcast/212689635/cf7a1608fcec427861f1b832ba9f1e8a.mp3",
-     "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel. We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next "
     }
    ]
   },
